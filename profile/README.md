@@ -24,6 +24,22 @@ curl -G https://api.browsersolver.com/v1/website/crawler \
   --data-urlencode "query=https://books.toscrape.com/"
 ```
 
+### Official SDKs
+
+Use BrowserSolver from your own language with a typed client:
+
+| SDK | Package | Install |
+| --- | --- | --- |
+| Node.js | [`@browsersolver/sdk`](https://www.npmjs.com/package/@browsersolver/sdk) | `npm install @browsersolver/sdk` |
+| Python | [`browsersolver`](https://pypi.org/project/browsersolver/) | `pip install browsersolver` |
+| Go | [`browsersolver-go`](https://pkg.go.dev/github.com/browsersolver/browsersolver-go) | `go get github.com/browsersolver/browsersolver-go` |
+| .NET | [`BrowserSolver`](https://www.nuget.org/packages/BrowserSolver) | `dotnet add package BrowserSolver` |
+| Ruby | [`browsersolver`](https://rubygems.org/gems/browsersolver) | `gem install browsersolver` |
+| PHP | [`browsersolver/sdk`](https://packagist.org/packages/browsersolver/sdk) | `composer require browsersolver/sdk` |
+| Java | [`browsersolver-java`](https://github.com/browsersolver/browsersolver-java) | build from source, see its README |
+| CLI | [`@browsersolver/cli`](https://www.npmjs.com/package/@browsersolver/cli) | `npm install -g @browsersolver/cli` |
+| MCP server | [`@browsersolver/mcp`](https://www.npmjs.com/package/@browsersolver/mcp) | `npx -y @browsersolver/mcp` |
+
 ### Repositories
 
 - [**Antibot Detection API**](https://github.com/browsersolver/antibot-detection-api) — Find out which bot protection sits in front of a site
